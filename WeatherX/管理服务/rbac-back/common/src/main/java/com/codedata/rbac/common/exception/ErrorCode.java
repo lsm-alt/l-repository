@@ -1,0 +1,82 @@
+package com.codedata.rbac.common.exception;
+
+import java.util.HashMap;
+import java.util.Map;
+public class ErrorCode {
+    private final static Map<Integer, String> errMap = new HashMap<Integer, String>();
+    public static final int OK=0;
+    public static final int HTTP_404=404;
+    public static final int HTTP_500=500;
+    public static final int ERR_UNKNOWN=10000001;
+    public static final int ERR_PARAMETERS=10000002;
+    public static final int ERR_AUTH=10000003;
+    public static final int ERR_TOKEN_GEN =10000004;
+    public static final int ERR_TOKEN_EMPTY =10000005;
+    public static final int ERR_TOKEN_INVALID =10000006;
+    public static final int ERR_DB_OPERATION=10000007;
+    public static final int ERR_NO_PERMIT=10000008;
+    public static final int ERR_OVER_PERMIT=10000009;
+    public static final int ERR_CAPTCHA=10000010;
+    public static final int ERR_JSON=10000011;
+    public static final int ERR_HASH=10000012;
+    public static final int ERR_SYS_PARAMETERS=10000013;
+    public static final int ERR_ACCOUNT_DISABLE=10000014;
+    public static final int ERR_DATA_CONVERT=10000015;
+    public static final int ERR_MENU=10000016;
+    public static final int ERR_OBJ_HAS_EXIST=10000017;
+    public static final int ERR_OBJ_NOT_EXIST=10000018;
+    public static final int ERR_DB_ADD=10000019;
+    public static final int ERR_DB_UPDATE=10000020;
+    public static final int ERR_DB_DELETE=10000021;
+    public static final int ERR_DB_GETRESOURCE=10000022;
+    public static final int ERR_INITUDP=10000023;
+    public static final int ERR_SQL_FILTER = 10000024;
+    public static final int ERR_FILE_ERROR=10000025;
+    public static final int ERR_WIND_FORM=10000026;
+    public static final int ERR_FILE_OUT=10000027;
+    public static final int ERR_FILE_IN=10000028;
+    public static final int ERR_JWT=10000029;
+    public static final int ERR_HTTP_GET=10000030;
+    public static final int ERR_WEATHER_API=10000031;
+    public static final int ERR_FORECAST_NOT_EXIST=10000032;
+    static {
+        errMap.put(OK,"成功");
+        errMap.put(HTTP_404,"网页不存在");
+        errMap.put(HTTP_500,"服务器内部错误");
+        errMap.put(ERR_UNKNOWN,"未知错误");
+        errMap.put(ERR_PARAMETERS,"输入参数错误");
+        errMap.put(ERR_AUTH,"登录认证失败");
+        errMap.put(ERR_TOKEN_GEN,"令牌生成失败");
+        errMap.put(ERR_TOKEN_EMPTY,"登陆令牌(token)为空");
+        errMap.put(ERR_TOKEN_INVALID,"登陆令牌无效");
+        errMap.put(ERR_DB_OPERATION,"数据库操作失败");
+        errMap.put(ERR_NO_PERMIT,"无操作权限");
+        errMap.put(ERR_OVER_PERMIT,"越权操作");
+        errMap.put(ERR_CAPTCHA,"验证码不正确");
+        errMap.put(ERR_JSON,"对象转换成JSON失败");
+        errMap.put(ERR_HASH,"哈希运算失败");
+        errMap.put(ERR_SYS_PARAMETERS,"获取系统参数失败");
+        errMap.put(ERR_ACCOUNT_DISABLE,"账号被禁用");
+        errMap.put(ERR_DATA_CONVERT,"数据转换失败");
+        errMap.put(ERR_MENU,"菜单操作失败");
+        errMap.put(ERR_OBJ_HAS_EXIST,"记录已存在");
+        errMap.put(ERR_OBJ_NOT_EXIST,"记录不存在");
+        errMap.put(ERR_DB_ADD,"新增记录失败");
+        errMap.put(ERR_DB_UPDATE,"修改记录失败");
+        errMap.put(ERR_DB_DELETE,"删除记录失败");
+        errMap.put(ERR_DB_GETRESOURCE,"获取资源信息失败");
+        errMap.put(ERR_INITUDP,"初始化SNMP服务对象失败");
+        errMap.put(ERR_SQL_FILTER,"SQL过滤出现问题");
+        errMap.put(ERR_FILE_ERROR,"文件操作失败");
+        errMap.put(ERR_WIND_FORM,"风力，风向格式错误");
+        errMap.put(ERR_FILE_OUT,"文件存储失败");
+        errMap.put(ERR_FILE_IN,"文件读取失败");
+        errMap.put(ERR_JWT,"JWT处理失败");
+        errMap.put(ERR_HTTP_GET,"HTTP GET请求失败");
+        errMap.put(ERR_WEATHER_API,"天气API读取失败");
+        errMap.put(ERR_FORECAST_NOT_EXIST,"未获取到当天的七天预报信息");
+    }
+    public static String get(Integer code){
+        return errMap.get(code);
+    }
+}

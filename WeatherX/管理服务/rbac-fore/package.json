@@ -1,0 +1,68 @@
+{
+  "name": "jk-rbac",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build:prod": "vue-cli-service build --mode production",
+    "build:sit": "vue-cli-service build --mode production.sit",
+    "build:uat": "vue-cli-service build --mode production.uat"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "babel-plugin-component": "^1.1.1",
+    "browserslist": "^4.21.3",
+    "core-js": "^3.24.1",
+    "element-theme": "^2.0.1",
+    "element-ui": "^2.15.7",
+    "html2canvas": "^1.4.1",
+    "js-cookie": "^3.0.1",
+    "jspdf": "^3.0.1",
+    "lodash": "^4.17.19",
+    "qs": "^6.9.4",
+    "quill": "^1.3.7",
+    "sass-loader": "^9.0.2",
+    "screenfull": "^4.2.1",
+    "svg-sprite-loader": "^5.0.0",
+    "vue": "^2.7.10",
+    "vue-pdf": "^4.3.0",
+    "vue-router": "^3.0.7",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "^4.5.0",
+    "@vue/cli-plugin-eslint": "^4.5.0",
+    "@vue/cli-service": "^4.5.0",
+    "element-theme-chalk": "^2.15.7",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "sass": "^1.89.2",
+    "vue-template-compiler": "^2.7.10"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 10"
+  ],
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "engines": {
+    "node": ">= 8.11.1",
+    "npm": ">= 5.6.0"
+  }
+}

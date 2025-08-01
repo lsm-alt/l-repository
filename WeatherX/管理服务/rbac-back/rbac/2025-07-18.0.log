@@ -1,0 +1,222 @@
+2025-07-18 15:58:38.004  INFO 20372 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2025-07-18 15:58:38.016  INFO 20372 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2025-07-18 16:53:50.015  INFO 35348 --- [main] com.codedata.rbac.Application            : Starting Application using Java 1.8.0_201-2-redhat on DESKTOP-SLG5A7T with PID 35348 (C:\Users\jklx\Desktop\WeatherX\管理服务\rbac-back\app\target\classes started by jklx in C:\Users\jklx\Desktop\WeatherX\管理服务\rbac-back)
+2025-07-18 16:53:50.019 DEBUG 35348 --- [main] com.codedata.rbac.Application            : Running with Spring Boot v2.7.3, Spring v5.3.22
+2025-07-18 16:53:50.020  INFO 35348 --- [main] com.codedata.rbac.Application            : The following 1 profile is active: "dev"
+2025-07-18 16:53:51.183  INFO 35348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.codedata.rbac.config.ShiroConfig$$EnhancerBySpringCGLIB$$c1c81ffe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-18 16:53:51.477  INFO 35348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-plus-com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-18 16:53:51.483  INFO 35348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mybatisPlusConfig' of type [com.codedata.rbac.config.MybatisPlusConfig$$EnhancerBySpringCGLIB$$767f1e1a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-18 16:53:51.503  INFO 35348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mybatisPlusInterceptor' of type [com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-18 16:53:51.508  INFO 35348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-18 16:53:51.511  INFO 35348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$9aadce12] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-18 16:53:51.513  INFO 35348 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2025-07-18 16:53:51.567  INFO 35348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-18 16:53:51.570  INFO 35348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-18 16:53:51.595  INFO 35348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'statFilter' of type [com.alibaba.druid.filter.stat.StatFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-18 16:53:51.701  INFO 35348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'slf4jLogFilter' of type [com.alibaba.druid.filter.logging.Slf4jLogFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-18 16:53:51.731  INFO 35348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'wallConfig' of type [com.alibaba.druid.wall.WallConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-18 16:53:51.755  INFO 35348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'wallFilter' of type [com.alibaba.druid.wall.WallFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-18 16:53:52.368  INFO 35348 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2025-07-18 16:53:52.368  INFO 35348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-18 16:53:52.391  INFO 35348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'fieldMetaObjectHandler' of type [com.codedata.rbac.security.handler.FieldMetaObjectHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-18 16:53:53.625  INFO 35348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-18 16:53:53.630  INFO 35348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-18 16:53:53.631  INFO 35348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'roleMenuDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-18 16:53:53.634  INFO 35348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'roleMenuDao' of type [com.sun.proxy.$Proxy85] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-18 16:53:53.635  INFO 35348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'roleMenuServiceImpl' of type [com.codedata.rbac.system.service.impl.RoleMenuServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-18 16:53:53.666  INFO 35348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'menuDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-18 16:53:53.667  INFO 35348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'menuDao' of type [com.sun.proxy.$Proxy87] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-18 16:53:53.668  INFO 35348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'menuServiceImpl' of type [com.codedata.rbac.system.service.impl.MenuServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-18 16:53:53.686  INFO 35348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userRoleDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-18 16:53:53.687  INFO 35348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userRoleDao' of type [com.sun.proxy.$Proxy89] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-18 16:53:53.688  INFO 35348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userRoleServiceImpl' of type [com.codedata.rbac.system.service.impl.UserRoleServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-18 16:53:53.699  INFO 35348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-18 16:53:53.700  INFO 35348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userDao' of type [com.sun.proxy.$Proxy91] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-18 16:53:53.701  INFO 35348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userServiceImpl' of type [com.codedata.rbac.system.service.impl.UserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-18 16:53:53.716  INFO 35348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'tokenDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-18 16:53:53.718  INFO 35348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'tokenDao' of type [com.sun.proxy.$Proxy93] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-18 16:53:53.719  INFO 35348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'tokenServiceImpl' of type [com.codedata.rbac.security.service.impl.TokenServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-18 16:53:53.729  INFO 35348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'shiroServiceImpl' of type [com.codedata.rbac.security.service.impl.ShiroServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-18 16:53:53.734  INFO 35348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'OAuth2AuthorizingRealm' of type [com.codedata.rbac.security.auth.OAuth2AuthorizingRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-18 16:53:53.791  INFO 35348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-18 16:53:53.803  INFO 35348 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-18 16:53:54.130  INFO 35348 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2025-07-18 16:53:54.143  INFO 35348 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-18 16:53:54.143  INFO 35348 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2025-07-18 16:53:54.266  INFO 35348 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-18 16:53:54.266  INFO 35348 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4201 ms
+2025-07-18 16:53:54.830 DEBUG 35348 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 40 mappings in 'requestMappingHandlerMapping'
+2025-07-18 16:53:54.906  INFO 35348 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2025-07-18 16:53:55.044 DEBUG 35348 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-07-18 16:53:55.106 DEBUG 35348 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-07-18 16:53:55.119 DEBUG 35348 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-07-18 16:53:55.395  INFO 35348 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2025-07-18 16:53:55.396  INFO 35348 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+2025-07-18 16:53:55.399  INFO 35348 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2025-07-18 16:53:55.434  INFO 35348 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2025-07-18 16:53:55.563  INFO 35348 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: queryUsingGET_1
+2025-07-18 16:53:55.567  INFO 35348 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: detailUsingGET_1
+2025-07-18 16:53:55.580  INFO 35348 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingPOST_1
+2025-07-18 16:53:55.594  INFO 35348 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUsingPOST_1
+2025-07-18 16:53:55.596  INFO 35348 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_1
+2025-07-18 16:53:55.604  INFO 35348 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: detailUsingGET_2
+2025-07-18 16:53:55.617  INFO 35348 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingPOST_2
+2025-07-18 16:53:55.620  INFO 35348 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUsingPOST_2
+2025-07-18 16:53:55.622  INFO 35348 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_2
+2025-07-18 16:53:55.629  INFO 35348 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: queryUsingGET_2
+2025-07-18 16:53:55.633  INFO 35348 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: detailUsingGET_3
+2025-07-18 16:53:55.637  INFO 35348 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectUsingGET_1
+2025-07-18 16:53:55.642  INFO 35348 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteUsingPOST_3
+2025-07-18 16:53:55.652  INFO 35348 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUsingPOST_3
+2025-07-18 16:53:55.653  INFO 35348 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: updateUsingPOST_3
+2025-07-18 16:53:55.662  INFO 35348 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: queryUsingGET_3
+2025-07-18 16:53:55.665  INFO 35348 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: detailUsingGET_4
+2025-07-18 16:53:55.668  INFO 35348 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectUsingGET_2
+2025-07-18 16:53:55.683  INFO 35348 --- [main] com.codedata.rbac.Application            : Started Application in 6.19 seconds (JVM running for 7.323)
+2025-07-18 16:54:02.931  INFO 35348 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-18 16:54:02.932  INFO 35348 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-18 16:54:02.932 DEBUG 35348 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-07-18 16:54:02.933 DEBUG 35348 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-07-18 16:54:02.933 DEBUG 35348 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-07-18 16:54:02.936 DEBUG 35348 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@583da34c
+2025-07-18 16:54:02.936 DEBUG 35348 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@6d019f5d
+2025-07-18 16:54:02.937 DEBUG 35348 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-07-18 16:54:02.937  INFO 35348 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2025-07-18 16:54:03.133 DEBUG 35348 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/security/captcha/?uuid=e15d5fd6-708a-47e7-988c-02b062a703da", parameters={masked}
+2025-07-18 16:54:03.154 DEBUG 35348 --- [http-nio-9090-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.codedata.rbac.security.controller.LoginController#captcha(HttpServletResponse, String)
+2025-07-18 16:54:03.412 DEBUG 35348 --- [http-nio-9090-exec-1] c.c.rbac.security.dao.CaptchaDao.delete  : ==>  Preparing: DELETE FROM sys_captcha WHERE (expire_time <= ?)
+2025-07-18 16:54:03.763 DEBUG 35348 --- [http-nio-9090-exec-1] c.c.rbac.security.dao.CaptchaDao.delete  : ==> Parameters: 2025-07-18 16:54:03.223(Timestamp)
+2025-07-18 16:54:03.768 DEBUG 35348 --- [http-nio-9090-exec-1] c.c.rbac.security.dao.CaptchaDao.delete  : <==    Updates: 0
+2025-07-18 16:54:03.787 DEBUG 35348 --- [http-nio-9090-exec-1] c.c.rbac.security.dao.CaptchaDao.insert  : ==>  Preparing: INSERT INTO sys_captcha ( uuid, code, expire_time ) VALUES ( ?, ?, ? )
+2025-07-18 16:54:03.801 DEBUG 35348 --- [http-nio-9090-exec-1] c.c.rbac.security.dao.CaptchaDao.insert  : ==> Parameters: e15d5fd6-708a-47e7-988c-02b062a703da(String), VNnnY(String), 2025-07-18 16:59:03.778(Timestamp)
+2025-07-18 16:54:03.807 DEBUG 35348 --- [http-nio-9090-exec-1] c.c.rbac.security.dao.CaptchaDao.insert  : <==    Updates: 1
+2025-07-18 16:54:04.008 DEBUG 35348 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-18 16:54:07.861 DEBUG 35348 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : OPTIONS "/security/login", parameters={}
+2025-07-18 16:54:07.866 DEBUG 35348 --- [http-nio-9090-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.codedata.rbac.security.controller.LoginController#login(LoginView)
+2025-07-18 16:54:07.882 DEBUG 35348 --- [http-nio-9090-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-18 16:54:07.889 DEBUG 35348 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/security/login", parameters={}
+2025-07-18 16:54:07.890 DEBUG 35348 --- [http-nio-9090-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.codedata.rbac.security.controller.LoginController#login(LoginView)
+2025-07-18 16:54:07.958 DEBUG 35348 --- [http-nio-9090-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [LoginView{username='admin', password='admin', captcha='VNNNYU', uuid='e15d5fd6-708a-47e7-988c-02b062 (truncated)...]
+2025-07-18 16:54:08.096 DEBUG 35348 --- [http-nio-9090-exec-2] c.c.r.s.dao.CaptchaDao.selectById        : ==>  Preparing: SELECT uuid,code,expire_time FROM sys_captcha WHERE uuid=?
+2025-07-18 16:54:08.098 DEBUG 35348 --- [http-nio-9090-exec-2] c.c.r.s.dao.CaptchaDao.selectById        : ==> Parameters: e15d5fd6-708a-47e7-988c-02b062a703da(String)
+2025-07-18 16:54:08.125 DEBUG 35348 --- [http-nio-9090-exec-2] c.c.r.s.dao.CaptchaDao.selectById        : <==      Total: 1
+2025-07-18 16:54:08.127 DEBUG 35348 --- [http-nio-9090-exec-2] c.c.r.s.dao.CaptchaDao.deleteById        : ==>  Preparing: DELETE FROM sys_captcha WHERE uuid=?
+2025-07-18 16:54:08.128 DEBUG 35348 --- [http-nio-9090-exec-2] c.c.r.s.dao.CaptchaDao.deleteById        : ==> Parameters: e15d5fd6-708a-47e7-988c-02b062a703da(String)
+2025-07-18 16:54:08.133 DEBUG 35348 --- [http-nio-9090-exec-2] c.c.r.s.dao.CaptchaDao.deleteById        : <==    Updates: 1
+2025-07-18 16:54:08.163 DEBUG 35348 --- [http-nio-9090-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json, application/json, application/*+json]
+2025-07-18 16:54:08.164 DEBUG 35348 --- [http-nio-9090-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [com.codedata.rbac.common.utils.Result@e2f9a97]
+2025-07-18 16:54:08.180 DEBUG 35348 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-18 16:54:08.189 DEBUG 35348 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/security/captcha/?uuid=eafaaf3e-f463-4a6e-b472-773ffd1792ba", parameters={masked}
+2025-07-18 16:54:08.190 DEBUG 35348 --- [http-nio-9090-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.codedata.rbac.security.controller.LoginController#captcha(HttpServletResponse, String)
+2025-07-18 16:54:08.194 DEBUG 35348 --- [http-nio-9090-exec-4] c.c.rbac.security.dao.CaptchaDao.delete  : ==>  Preparing: DELETE FROM sys_captcha WHERE (expire_time <= ?)
+2025-07-18 16:54:08.195 DEBUG 35348 --- [http-nio-9090-exec-4] c.c.rbac.security.dao.CaptchaDao.delete  : ==> Parameters: 2025-07-18 16:54:08.191(Timestamp)
+2025-07-18 16:54:08.198 DEBUG 35348 --- [http-nio-9090-exec-4] c.c.rbac.security.dao.CaptchaDao.delete  : <==    Updates: 0
+2025-07-18 16:54:08.199 DEBUG 35348 --- [http-nio-9090-exec-4] c.c.rbac.security.dao.CaptchaDao.insert  : ==>  Preparing: INSERT INTO sys_captcha ( uuid, code, expire_time ) VALUES ( ?, ?, ? )
+2025-07-18 16:54:08.200 DEBUG 35348 --- [http-nio-9090-exec-4] c.c.rbac.security.dao.CaptchaDao.insert  : ==> Parameters: eafaaf3e-f463-4a6e-b472-773ffd1792ba(String), 524ka(String), 2025-07-18 16:59:08.198(Timestamp)
+2025-07-18 16:54:08.210 DEBUG 35348 --- [http-nio-9090-exec-4] c.c.rbac.security.dao.CaptchaDao.insert  : <==    Updates: 1
+2025-07-18 16:54:08.237 DEBUG 35348 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-18 16:54:13.256 DEBUG 35348 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/security/login", parameters={}
+2025-07-18 16:54:13.257 DEBUG 35348 --- [http-nio-9090-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.codedata.rbac.security.controller.LoginController#login(LoginView)
+2025-07-18 16:54:13.260 DEBUG 35348 --- [http-nio-9090-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [LoginView{username='admin', password='admin', captcha='524KA', uuid='eafaaf3e-f463-4a6e-b472-773ffd1 (truncated)...]
+2025-07-18 16:54:13.276 DEBUG 35348 --- [http-nio-9090-exec-5] c.c.r.s.dao.CaptchaDao.selectById        : ==>  Preparing: SELECT uuid,code,expire_time FROM sys_captcha WHERE uuid=?
+2025-07-18 16:54:13.277 DEBUG 35348 --- [http-nio-9090-exec-5] c.c.r.s.dao.CaptchaDao.selectById        : ==> Parameters: eafaaf3e-f463-4a6e-b472-773ffd1792ba(String)
+2025-07-18 16:54:13.280 DEBUG 35348 --- [http-nio-9090-exec-5] c.c.r.s.dao.CaptchaDao.selectById        : <==      Total: 1
+2025-07-18 16:54:13.282 DEBUG 35348 --- [http-nio-9090-exec-5] c.c.r.s.dao.CaptchaDao.deleteById        : ==>  Preparing: DELETE FROM sys_captcha WHERE uuid=?
+2025-07-18 16:54:13.282 DEBUG 35348 --- [http-nio-9090-exec-5] c.c.r.s.dao.CaptchaDao.deleteById        : ==> Parameters: eafaaf3e-f463-4a6e-b472-773ffd1792ba(String)
+2025-07-18 16:54:13.287 DEBUG 35348 --- [http-nio-9090-exec-5] c.c.r.s.dao.CaptchaDao.deleteById        : <==    Updates: 1
+2025-07-18 16:54:13.295 DEBUG 35348 --- [http-nio-9090-exec-5] c.c.r.system.dao.UserDao.getUserByName   : ==>  Preparing: select * from sys_user where username = ?
+2025-07-18 16:54:13.296 DEBUG 35348 --- [http-nio-9090-exec-5] c.c.r.system.dao.UserDao.getUserByName   : ==> Parameters: admin(String)
+2025-07-18 16:54:13.299 DEBUG 35348 --- [http-nio-9090-exec-5] c.c.r.system.dao.UserDao.getUserByName   : <==      Total: 1
+2025-07-18 16:54:13.311 DEBUG 35348 --- [http-nio-9090-exec-5] c.c.r.security.dao.TokenDao.getByUserId  : ==>  Preparing: select * from sys_token where user_id = ?
+2025-07-18 16:54:13.314 DEBUG 35348 --- [http-nio-9090-exec-5] c.c.r.security.dao.TokenDao.getByUserId  : ==> Parameters: 1(Long)
+2025-07-18 16:54:13.317 DEBUG 35348 --- [http-nio-9090-exec-5] c.c.r.security.dao.TokenDao.getByUserId  : <==      Total: 1
+2025-07-18 16:54:13.323 DEBUG 35348 --- [http-nio-9090-exec-5] c.c.r.security.dao.TokenDao.updateById   : ==>  Preparing: UPDATE sys_token SET user_id=?, token=?, expire_date=?, update_date=?, create_date=? WHERE id=?
+2025-07-18 16:54:13.328 DEBUG 35348 --- [http-nio-9090-exec-5] c.c.r.security.dao.TokenDao.updateById   : ==> Parameters: 1(Long), MjIwMjg1MGMtNDViMy00MjBlLTk5ZTQtNjcxNzNmZGZhMTQ3(String), 2025-07-19 04:54:13.31(Timestamp), 2025-07-18 16:54:13.31(Timestamp), 2025-07-11 10:00:53.0(Timestamp), 1943490644907446273(Long)
+2025-07-18 16:54:13.333 DEBUG 35348 --- [http-nio-9090-exec-5] c.c.r.security.dao.TokenDao.updateById   : <==    Updates: 1
+2025-07-18 16:54:13.334 DEBUG 35348 --- [http-nio-9090-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json, application/json, application/*+json]
+2025-07-18 16:54:13.334 DEBUG 35348 --- [http-nio-9090-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [com.codedata.rbac.common.utils.Result@5ab35b4f]
+2025-07-18 16:54:13.344 DEBUG 35348 --- [http-nio-9090-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-18 16:54:13.349 DEBUG 35348 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : OPTIONS "/system/menu/nav?_t=1752828853346", parameters={masked}
+2025-07-18 16:54:13.352 DEBUG 35348 --- [http-nio-9090-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.codedata.rbac.system.controller.MenuController#nav()
+2025-07-18 16:54:13.355 DEBUG 35348 --- [http-nio-9090-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-18 16:54:13.367 DEBUG 35348 --- [http-nio-9090-exec-7] c.c.r.security.dao.TokenDao.getByToken   : ==>  Preparing: select * from sys_token where token = ?
+2025-07-18 16:54:13.369 DEBUG 35348 --- [http-nio-9090-exec-7] c.c.r.security.dao.TokenDao.getByToken   : ==> Parameters: MjIwMjg1MGMtNDViMy00MjBlLTk5ZTQtNjcxNzNmZGZhMTQ3(String)
+2025-07-18 16:54:13.371 DEBUG 35348 --- [http-nio-9090-exec-7] c.c.r.security.dao.TokenDao.getByToken   : <==      Total: 1
+2025-07-18 16:54:13.374 DEBUG 35348 --- [http-nio-9090-exec-7] c.c.rbac.system.dao.UserDao.selectById   : ==>  Preparing: SELECT id,username,password,real_name,head_url,gender,email,mobile,super_admin,status,updater,update_date,creator,create_date FROM sys_user WHERE id=?
+2025-07-18 16:54:13.376 DEBUG 35348 --- [http-nio-9090-exec-7] c.c.rbac.system.dao.UserDao.selectById   : ==> Parameters: 1(Long)
+2025-07-18 16:54:13.379 DEBUG 35348 --- [http-nio-9090-exec-7] c.c.rbac.system.dao.UserDao.selectById   : <==      Total: 1
+2025-07-18 16:54:13.400 DEBUG 35348 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/system/menu/nav?_t=1752828853346", parameters={masked}
+2025-07-18 16:54:13.400 DEBUG 35348 --- [http-nio-9090-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.codedata.rbac.system.controller.MenuController#nav()
+2025-07-18 16:54:13.415 DEBUG 35348 --- [http-nio-9090-exec-7] c.c.r.system.dao.MenuDao.getMenuByType   : ==>  Preparing: select * from sys_menu WHERE type = ? order by sort asc
+2025-07-18 16:54:13.420 DEBUG 35348 --- [http-nio-9090-exec-7] c.c.r.system.dao.MenuDao.getMenuByType   : ==> Parameters: 0(Integer)
+2025-07-18 16:54:13.429 DEBUG 35348 --- [http-nio-9090-exec-7] c.c.r.system.dao.MenuDao.getMenuByType   : <==      Total: 13
+2025-07-18 16:54:13.452 DEBUG 35348 --- [http-nio-9090-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json, application/json, application/*+json]
+2025-07-18 16:54:13.452 DEBUG 35348 --- [http-nio-9090-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [com.codedata.rbac.common.utils.Result@2bf1b5fe]
+2025-07-18 16:54:13.463 DEBUG 35348 --- [http-nio-9090-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-18 16:54:13.486 DEBUG 35348 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : OPTIONS "/system/user/info?_t=1752828853480", parameters={masked}
+2025-07-18 16:54:13.487 DEBUG 35348 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : OPTIONS "/system/menu/permissions?_t=1752828853480", parameters={masked}
+2025-07-18 16:54:13.488 DEBUG 35348 --- [http-nio-9090-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.codedata.rbac.system.controller.UserController#info()
+2025-07-18 16:54:13.489 DEBUG 35348 --- [http-nio-9090-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.codedata.rbac.system.controller.MenuController#permissions()
+2025-07-18 16:54:13.490 DEBUG 35348 --- [http-nio-9090-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-18 16:54:13.491 DEBUG 35348 --- [http-nio-9090-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-18 16:54:13.497 DEBUG 35348 --- [http-nio-9090-exec-10] c.c.r.security.dao.TokenDao.getByToken   : ==>  Preparing: select * from sys_token where token = ?
+2025-07-18 16:54:13.498 DEBUG 35348 --- [http-nio-9090-exec-10] c.c.r.security.dao.TokenDao.getByToken   : ==> Parameters: MjIwMjg1MGMtNDViMy00MjBlLTk5ZTQtNjcxNzNmZGZhMTQ3(String)
+2025-07-18 16:54:13.498 DEBUG 35348 --- [http-nio-9090-exec-11] c.c.r.security.dao.TokenDao.getByToken   : ==>  Preparing: select * from sys_token where token = ?
+2025-07-18 16:54:13.499 DEBUG 35348 --- [http-nio-9090-exec-11] c.c.r.security.dao.TokenDao.getByToken   : ==> Parameters: MjIwMjg1MGMtNDViMy00MjBlLTk5ZTQtNjcxNzNmZGZhMTQ3(String)
+2025-07-18 16:54:13.500 DEBUG 35348 --- [http-nio-9090-exec-10] c.c.r.security.dao.TokenDao.getByToken   : <==      Total: 1
+2025-07-18 16:54:13.502 DEBUG 35348 --- [http-nio-9090-exec-10] c.c.rbac.system.dao.UserDao.selectById   : ==>  Preparing: SELECT id,username,password,real_name,head_url,gender,email,mobile,super_admin,status,updater,update_date,creator,create_date FROM sys_user WHERE id=?
+2025-07-18 16:54:13.503 DEBUG 35348 --- [http-nio-9090-exec-10] c.c.rbac.system.dao.UserDao.selectById   : ==> Parameters: 1(Long)
+2025-07-18 16:54:13.503 DEBUG 35348 --- [http-nio-9090-exec-11] c.c.r.security.dao.TokenDao.getByToken   : <==      Total: 1
+2025-07-18 16:54:13.506 DEBUG 35348 --- [http-nio-9090-exec-11] c.c.rbac.system.dao.UserDao.selectById   : ==>  Preparing: SELECT id,username,password,real_name,head_url,gender,email,mobile,super_admin,status,updater,update_date,creator,create_date FROM sys_user WHERE id=?
+2025-07-18 16:54:13.507 DEBUG 35348 --- [http-nio-9090-exec-11] c.c.rbac.system.dao.UserDao.selectById   : ==> Parameters: 1(Long)
+2025-07-18 16:54:13.507 DEBUG 35348 --- [http-nio-9090-exec-10] c.c.rbac.system.dao.UserDao.selectById   : <==      Total: 1
+2025-07-18 16:54:13.508 DEBUG 35348 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/system/user/info?_t=1752828853480", parameters={masked}
+2025-07-18 16:54:13.509 DEBUG 35348 --- [http-nio-9090-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.codedata.rbac.system.controller.UserController#info()
+2025-07-18 16:54:13.509 DEBUG 35348 --- [http-nio-9090-exec-11] c.c.rbac.system.dao.UserDao.selectById   : <==      Total: 1
+2025-07-18 16:54:13.510 DEBUG 35348 --- [http-nio-9090-exec-11] o.s.web.servlet.DispatcherServlet        : GET "/system/menu/permissions?_t=1752828853480", parameters={masked}
+2025-07-18 16:54:13.510 DEBUG 35348 --- [http-nio-9090-exec-11] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.codedata.rbac.system.controller.MenuController#permissions()
+2025-07-18 16:54:13.512 DEBUG 35348 --- [http-nio-9090-exec-11] c.c.r.s.dao.MenuDao.getPermissionsList   : ==>  Preparing: select permissions from sys_menu
+2025-07-18 16:54:13.513 DEBUG 35348 --- [http-nio-9090-exec-11] c.c.r.s.dao.MenuDao.getPermissionsList   : ==> Parameters: 
+2025-07-18 16:54:13.519 DEBUG 35348 --- [http-nio-9090-exec-11] c.c.r.s.dao.MenuDao.getPermissionsList   : <==      Total: 27
+2025-07-18 16:54:13.520 DEBUG 35348 --- [http-nio-9090-exec-11] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json, application/json, application/*+json]
+2025-07-18 16:54:13.521 DEBUG 35348 --- [http-nio-9090-exec-11] m.m.a.RequestResponseBodyMethodProcessor : Writing [com.codedata.rbac.common.utils.Result@484bcdd3]
+2025-07-18 16:54:13.525 DEBUG 35348 --- [http-nio-9090-exec-11] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-18 16:54:13.529 DEBUG 35348 --- [http-nio-9090-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json, application/json, application/*+json]
+2025-07-18 16:54:13.529 DEBUG 35348 --- [http-nio-9090-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [com.codedata.rbac.common.utils.Result@47521c29]
+2025-07-18 16:54:13.532 DEBUG 35348 --- [http-nio-9090-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-18 16:54:15.410 DEBUG 35348 --- [http-nio-9090-exec-12] o.s.web.servlet.DispatcherServlet        : OPTIONS "/weather/forecast/query?order=&orderField=&page=1&limit=10&forecastDate=&_t=1752828855406", parameters={masked}
+2025-07-18 16:54:15.412 DEBUG 35348 --- [http-nio-9090-exec-12] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.codedata.rbac.controller.ForecastController#query(Map)
+2025-07-18 16:54:15.413 DEBUG 35348 --- [http-nio-9090-exec-12] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-18 16:54:15.420 DEBUG 35348 --- [http-nio-9090-exec-13] c.c.r.security.dao.TokenDao.getByToken   : ==>  Preparing: select * from sys_token where token = ?
+2025-07-18 16:54:15.421 DEBUG 35348 --- [http-nio-9090-exec-13] c.c.r.security.dao.TokenDao.getByToken   : ==> Parameters: MjIwMjg1MGMtNDViMy00MjBlLTk5ZTQtNjcxNzNmZGZhMTQ3(String)
+2025-07-18 16:54:15.424 DEBUG 35348 --- [http-nio-9090-exec-13] c.c.r.security.dao.TokenDao.getByToken   : <==      Total: 1
+2025-07-18 16:54:15.428 DEBUG 35348 --- [http-nio-9090-exec-13] c.c.rbac.system.dao.UserDao.selectById   : ==>  Preparing: SELECT id,username,password,real_name,head_url,gender,email,mobile,super_admin,status,updater,update_date,creator,create_date FROM sys_user WHERE id=?
+2025-07-18 16:54:15.429 DEBUG 35348 --- [http-nio-9090-exec-13] c.c.rbac.system.dao.UserDao.selectById   : ==> Parameters: 1(Long)
+2025-07-18 16:54:15.432 DEBUG 35348 --- [http-nio-9090-exec-13] c.c.rbac.system.dao.UserDao.selectById   : <==      Total: 1
+2025-07-18 16:54:15.433 DEBUG 35348 --- [http-nio-9090-exec-13] o.s.web.servlet.DispatcherServlet        : GET "/weather/forecast/query?order=&orderField=&page=1&limit=10&forecastDate=&_t=1752828855406", parameters={masked}
+2025-07-18 16:54:15.434 DEBUG 35348 --- [http-nio-9090-exec-13] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.codedata.rbac.controller.ForecastController#query(Map)
+2025-07-18 16:54:15.472 DEBUG 35348 --- [http-nio-9090-exec-13] c.c.r.d.ForecastDao.selectPage_mpCount   : ==>  Preparing: SELECT COUNT(*) AS total FROM weather_forecast
+2025-07-18 16:54:15.474 DEBUG 35348 --- [http-nio-9090-exec-13] c.c.r.d.ForecastDao.selectPage_mpCount   : ==> Parameters: 
+2025-07-18 16:54:15.476 DEBUG 35348 --- [http-nio-9090-exec-13] c.c.r.d.ForecastDao.selectPage_mpCount   : <==      Total: 1
+2025-07-18 16:54:15.483 DEBUG 35348 --- [http-nio-9090-exec-13] c.c.rbac.dao.ForecastDao.selectPage      : ==>  Preparing: SELECT id,forecast_date,time_with,district_with,file_path,update_date,creator,create_date FROM weather_forecast LIMIT ?
+2025-07-18 16:54:15.486 DEBUG 35348 --- [http-nio-9090-exec-13] c.c.rbac.dao.ForecastDao.selectPage      : ==> Parameters: 10(Long)
+2025-07-18 16:54:15.492 DEBUG 35348 --- [http-nio-9090-exec-13] c.c.rbac.dao.ForecastDao.selectPage      : <==      Total: 1
+2025-07-18 16:54:15.501 DEBUG 35348 --- [http-nio-9090-exec-13] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json, application/json, application/*+json]
+2025-07-18 16:54:15.501 DEBUG 35348 --- [http-nio-9090-exec-13] m.m.a.RequestResponseBodyMethodProcessor : Writing [com.codedata.rbac.common.utils.Result@1bf0bf65]
+2025-07-18 16:54:15.505 DEBUG 35348 --- [http-nio-9090-exec-13] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-18 16:55:03.923 DEBUG 35348 --- [http-nio-9090-exec-14] o.s.web.servlet.DispatcherServlet        : OPTIONS "/weather/forecast/getdate?_t=1752828903920", parameters={masked}
+2025-07-18 16:55:03.925 DEBUG 35348 --- [http-nio-9090-exec-14] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.codedata.rbac.controller.ForecastController#getDate()
+2025-07-18 16:55:03.926 DEBUG 35348 --- [http-nio-9090-exec-14] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-18 16:55:03.931 DEBUG 35348 --- [http-nio-9090-exec-15] c.c.r.security.dao.TokenDao.getByToken   : ==>  Preparing: select * from sys_token where token = ?
+2025-07-18 16:55:03.932 DEBUG 35348 --- [http-nio-9090-exec-15] c.c.r.security.dao.TokenDao.getByToken   : ==> Parameters: MjIwMjg1MGMtNDViMy00MjBlLTk5ZTQtNjcxNzNmZGZhMTQ3(String)
+2025-07-18 16:55:03.934 DEBUG 35348 --- [http-nio-9090-exec-15] c.c.r.security.dao.TokenDao.getByToken   : <==      Total: 1
+2025-07-18 16:55:03.936 DEBUG 35348 --- [http-nio-9090-exec-15] c.c.rbac.system.dao.UserDao.selectById   : ==>  Preparing: SELECT id,username,password,real_name,head_url,gender,email,mobile,super_admin,status,updater,update_date,creator,create_date FROM sys_user WHERE id=?
+2025-07-18 16:55:03.936 DEBUG 35348 --- [http-nio-9090-exec-15] c.c.rbac.system.dao.UserDao.selectById   : ==> Parameters: 1(Long)
+2025-07-18 16:55:03.938 DEBUG 35348 --- [http-nio-9090-exec-15] c.c.rbac.system.dao.UserDao.selectById   : <==      Total: 1
+2025-07-18 16:55:03.939 DEBUG 35348 --- [http-nio-9090-exec-15] o.s.web.servlet.DispatcherServlet        : GET "/weather/forecast/getdate?_t=1752828903920", parameters={masked}
+2025-07-18 16:55:03.940 DEBUG 35348 --- [http-nio-9090-exec-15] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.codedata.rbac.controller.ForecastController#getDate()
+2025-07-18 16:55:03.946 DEBUG 35348 --- [http-nio-9090-exec-15] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json, application/json, application/*+json]
+2025-07-18 16:55:03.946 DEBUG 35348 --- [http-nio-9090-exec-15] m.m.a.RequestResponseBodyMethodProcessor : Writing [com.codedata.rbac.common.utils.Result@3f0d8f3c]
+2025-07-18 16:55:03.947 DEBUG 35348 --- [http-nio-9090-exec-15] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2025-07-18 18:36:04.017  INFO 35348 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2025-07-18 18:36:04.028  INFO 35348 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed

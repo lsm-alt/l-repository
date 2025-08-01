@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.codedata.rbac.system.dao.MenuDao">
+    <select id="getMenuById" resultType="com.codedata.rbac.system.entity.MenuEntity">
+        select t1.*, (select name from sys_menu t2 where t2.id=t1.pid) as parentName from sys_menu t1
+        where t1.id = #{id}
+    </select>
+
+    <select id="getMenuByType" resultType="com.codedata.rbac.system.entity.MenuEntity">
+        select * from sys_menu
+        <where>
+            <if test="type != null">
+                type = #{type}
+            </if>
+        </where>
+        order by sort asc
+    </select>
+
+    <select id="getUserMenuList" resultType="com.codedata.rbac.system.entity.MenuEntity">
+        SELECT
+        t3.*
+        FROM
+        sys_user_role t1
+        LEFT JOIN sys_role_menu t2 ON t1.role_id = t2.role_id
+        LEFT JOIN sys_menu t3 ON t2.menu_id = t3.id
+        WHERE
+        t1.user_id = #{userId}
+        <if test="type != null">
+            and t3.type = #{type}
+        </if>
+        order by t3.sort asc
+    </select>
+
+    <select id="getUserPermissionsList" resultType="string">
+        SELECT
+            t3.permissions
+        FROM
+            sys_user_role t1
+                LEFT JOIN sys_role_menu t2 ON t1.role_id = t2.role_id
+                LEFT JOIN sys_menu t3 ON t2.menu_id = t3.id
+        WHERE
+            t1.user_id = #{userId} order by t3.sort asc
+    </select>
+
+    <select id="getPermissionsList" resultType="string">
+        select permissions from sys_menu
+    </select>
+
+    <select id="getMenuListByPid" resultType="com.codedata.rbac.system.entity.MenuEntity">
+        select * from sys_menu where pid = #{value}
+    </select>
+</mapper>

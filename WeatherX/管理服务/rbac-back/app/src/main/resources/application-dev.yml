@@ -1,0 +1,84 @@
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://192.168.8.76:3306/jkrbac?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&nullCatalogMeansCurrent=true&useSSL=false
+      username: root
+      password: 123456
+      initial-size: 10
+      max-active: 100
+      min-idle: 10
+      max-wait: 60000
+      pool-prepared-statements: true
+      max-pool-prepared-statement-per-connection-size: 20
+      time-between-eviction-runs-millis: 60000
+      min-evictable-idle-time-millis: 300000
+      #Oracle需要打开注释
+      #validation-query: SELECT 1 FROM DUAL
+      test-while-idle: true
+      test-on-borrow: false
+      test-on-return: false
+      #配置WebStatFilter，用于采集web关联监控的数据
+      web-stat-filter:
+        enabled: true
+        url-pattern: /*                 # 过滤所有url
+        exclusions: "*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*" # 排除一些不必要的url
+        session-stat-enable: true       # 开启session统计功能
+        session-stat-max-count: 1000    # session的最大个数,默认100
+      #配置StatViewServlet（监控页面），用于展示Druid的统计信息
+      stat-view-servlet:
+        enabled: true
+        url-pattern: /druid/*
+        login-username: admin
+        login-password: admin
+      filter:
+        # 开启druid datasource的状态监控
+        stat:
+          # 开启慢sql监控，超过1s 就认为是慢sql，记录到日志中
+          log-slow-sql: true
+          slow-sql-millis: 1000
+          merge-sql: false
+          enabled: true
+        #SQL防火墙
+        wall:
+          config:
+            multi-statement-allow: true
+          enabled: true
+        #使用slf4j输出日志
+        slf4j:
+          enabled: true
+          statement-log-error-enabled: true
+          statement-create-after-log-enabled: false
+          statement-close-after-log-enabled: false
+          result-set-open-after-log-enabled: false
+          result-set-close-after-log-enabled: false
+
+#接口文档模块
+knife4j:
+  # 开启增强配置
+  enable: true
+  # 开启生产环境屏蔽
+  production: false
+  # 开启Swagger的Basic认证功能,默认是false
+  basic:
+    enable: false
+    # Basic认证用户名
+    username: admin
+    # Basic认证密码
+    password: admin
+  setting:
+    enableFooter: false
+    enableFooterCustom: true
+    footerCustomContent: Copyright  2022-codedata
+weather:
+  api: https://mh7dn8q5kg.re.qweatherapi.com/v7/weather/7d
+  jujube-file: C:\Users\jklx\Desktop\KMC文件\沾化冬枣成熟期气象服务专报模板.docx
+  jwt:
+    private-key: |
+      -----BEGIN PRIVATE KEY-----
+      MC4CAQAwBQYDK2VwBCIEIOY/0PtNA6oezh+sG5Z8LJuGvMUQY7g87jZlNgs4T9+9
+      -----END PRIVATE KEY-----
+    kid: T9WJGY2WE4
+    sub: 2KTHAY5W3R
+    token-expire-seconds: 3600
+

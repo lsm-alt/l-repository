@@ -1,0 +1,62 @@
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/jkrbac?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&nullCatalogMeansCurrent=true&useSSL=false
+      username: root
+      password: 123456
+      initial-size: 10
+      max-active: 100
+      min-idle: 10
+      max-wait: 60000
+      pool-prepared-statements: true
+      max-pool-prepared-statement-per-connection-size: 20
+      time-between-eviction-runs-millis: 60000
+      min-evictable-idle-time-millis: 300000
+      #Oracle需要打开注释
+      #validation-query: SELECT 1 FROM DUAL
+      test-while-idle: true
+      test-on-borrow: false
+      test-on-return: false
+      #druid监控页面
+      stat-view-servlet:
+        enabled: true
+        url-pattern: /druid/*
+        login-username: admin
+        login-password: admin
+      filter:
+        stat:
+          log-slow-sql: true
+          slow-sql-millis: 1000
+          merge-sql: false
+        wall:
+          config:
+            multi-statement-allow: true
+
+#接口文档模块
+knife4j:
+  # 开启增强配置
+  enable: true
+  # 开启生产环境屏蔽
+  production: true
+  # 开启Swagger的Basic认证功能,默认是false
+  basic:
+    enable: false
+    # Basic认证用户名
+    username: admin
+    # Basic认证密码
+    password: admin
+  setting:
+    enableFooter: false
+    enableFooterCustom: true
+    footerCustomContent: Copyright  2022-codedata
+
+weather:
+  jwt:
+    private-key: |
+      -----BEGIN PRIVATE KEY-----
+      MC4CAQAwBQYDK2VwBCIEIOY/0PtNA6oezh+sG5Z8LJuGvMUQY7g87jZlNgs4T9+9
+      -----END PRIVATE KEY-----
+    kid: T9WJGY2WE4
+    sub: 2KTHAY5W3R
+    token-expire-seconds: 3600
